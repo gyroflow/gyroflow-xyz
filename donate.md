@@ -1,12 +1,13 @@
 ---
 layout: single
-title: Donate
+title: Support Gyroflow
 ---
 
-I know a lot of people don't have a bunch of money to throw at fancy gear or internet strangers (which was part of the reason for starting the project in the first place), so if you want to help out, the most useful way is to try out the tool, share your results, and send new lens presets that others can use. However, if you are feeling generous, appreciate the development so far, and perhaps want to support future work and (hardware?) testing, here's a paypal button.
+The Gyroflow project was initially a Python program started by [Elvin](https://elvinchen.com/) in 2020. Elvin is currently one of the core developers working on software and hardware development:
 
-[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](http://paypal.me/chenelvin)
+[![Support Elvin via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](http://paypal.me/chenelvin)
+<a href="https://patreon.com/elvinchen" class="btn btn--info btn--large">Support Elvin via Patreon</a>
 
-If you would like to follow the development even closer, and perhaps try some pre-release tools/plugins in the future, there's also a Patreon:
+Version 1.0 and onwards was made possible by [Adrian Eddy](https://github.com/adrianEddy), who worked overtime on adapting the previous Python codebase to high-performance cross-platform Rust code with a modern UI, and implemented new advanced features.
 
-<a href="https://patreon.com/elvinchen" class="btn btn--info btn--large">Support via Patreon</a>
+Furthermore, many other amazing contributers have helped during the development in order to discuss, test, and implement new ideas for video stabilization. You can find them on the contributers list on GitHub repositories. None of this would be possible without the help and support of everyone involved, including users who provided helpful feedback. Furthermore, huge thanks to everyone who helped grow the database of camera presets!

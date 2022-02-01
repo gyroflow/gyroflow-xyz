@@ -1,5 +1,5 @@
 ---
-title: "Gyroflow 0.3.0-beta is out!"
+title: "Gyroflow 1.0.0 has appeared!"
 layout: splash
 date: 2016-03-23T11:48:41-04:00
 header:
@@ -7,29 +7,29 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/images/banner.jpg
   actions:
-    - label: "Git Repo"
-      url: "https://github.com/ElvinC/gyroflow"
+    - label: "Docs"
+      url: "https://docs.gyroflow.xyz/"
     - label: "Download"
       url: "/download/"
       class: "btn--primary"
-excerpt: "Breaking news: The world's most tedious stabilization software could lose that title"
+excerpt: "Surprise! Gyroflow is now faster, more intuitive, and production-grade"
 intro: 
-  - excerpt: "Ever wanted to be smooth like [insert favourite FPV pilot] without the skills or budget? This tool probably won't do that, but it might do something..."
+  - excerpt: "Advanced open-source gyro-assisted video stabilization for cinematography, drone videography, and much more! Bring your cinematic FPV footage to the next level."
 feature_row:
   - image_path: /assets/images/ui_picture.jpg
-    alt: "placeholder image 1"
-    title: "Awful user interface"
-    excerpt: "Designed by someone with absolutely no UX design experience. Maybe it's awful, maybe it isn't, idk."
-  - image_path: /assets/images/sync_picture.jpg
-    alt: "placeholder image 2"
-    title: "Alright stabilization"
-    excerpt: "Might've been almost state of the art back in 2011, still way behind other (commercial) implementations when it comes to how commercial it is."
+    alt: "Modern UI"
+    title: "Modern  user interface"
+    excerpt: "New and improved cross-platform user interface with realtime hardware accelerated video playback and blazingly fast video export. And yes, it comes with a dark mode."
+  - image_path: /assets/images/stabexample.jpg
+    alt: "Stab"
+    title: "Advanced stabilization"
+    excerpt: "Gyroflow corrects for lens distortion and contains a handful of customizable video smoothing algorithms, including horizon levelling, to achieve exactly the stabilized look you need."
     # url: "#test-link"
     # btn_label: "Read More"
     # btn_class: "btn--primary"
-  - image_path: /assets/images/blackbox_picture.jpg
-    title: "Arduous workflow"
-    excerpt: '"Why spend so much time and effort with logging, calibration, and messing around with sync when I can just run it through warp stabilizer?" - Potential user'
+  - image_path: /assets/images/fpv_logger.jpg
+    title: "Flexible workflow"
+    excerpt: "Put a gyro source and a camera together and you're ready to go. Native support for gyro data from GoPro, Insta360, Sony, Runcam, Drone blackbox etc. and up to 16-bit video processing."
 ---
 
 

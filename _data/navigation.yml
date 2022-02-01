@@ -1,14 +1,16 @@
 main:
   - title: "Download"
     url: /download/
-  - title: "Guide"
-    url: /guide/
+  - title: "Docs"
+    url: http://docs.gyroflow.xyz/
   - title: Add lens profile
     url: /lens/
   - title: "Gallery"
     url: /gallery/
   - title: "FAQ"
     url: /FAQ/
+  - title: "Contact"
+    url: /contact/
   - title: "Donate"
     url: /donate/
 
