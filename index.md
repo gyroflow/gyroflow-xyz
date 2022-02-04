@@ -1,5 +1,5 @@
 ---
-title: "Gyroflow 1.0.0 has appeared!"
+title: "Gyroflow v1.0.0-rc1 has appeared!"
 layout: splash
 date: 2016-03-23T11:48:41-04:00
 header:
@@ -7,10 +7,12 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/images/banner.jpg
   actions:
+    - label: "Download"
+      url: "https://github.com/gyroflow/gyroflow/releases"
+    - label: "Repository"
+      url: "https://github.com/gyroflow/gyroflow"
     - label: "Docs"
       url: "https://docs.gyroflow.xyz/"
-    - label: "Download"
-      url: "/download/"
       class: "btn--primary"
 excerpt: "Surprise! Gyroflow is now faster, more intuitive, and production-grade"
 intro: 
@@ -23,7 +25,7 @@ feature_row:
   - image_path: /assets/images/stabexample.jpg
     alt: "Stab"
     title: "Advanced stabilization"
-    excerpt: "Gyroflow corrects for lens distortion and contains a handful of customizable video smoothing algorithms, including horizon levelling, to achieve exactly the stabilized look you need."
+    excerpt: "Gyroflow corrects for lens distortion and contains a handful of customizable video smoothing algorithms, including horizon leveling, to achieve exactly the stabilized look you need."
     # url: "#test-link"
     # btn_label: "Read More"
     # btn_class: "btn--primary"
@@ -35,6 +37,47 @@ feature_row:
 
 {% include feature_row id="intro" type="center" %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f4YD5pGmnxM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QR-SINyvNyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 {% include feature_row %}
+# Features ([See the repository for more information](https://github.com/gyroflow/gyroflow))
+
+<video loop autoplay muted style="width:100%;">
+  <source src="/assets/videos/comparison1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video loop autoplay muted style="width:100%;">
+  <source src="/assets/videos/comparison2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+- Real time preview, params adjustments and all calculations
+- GPU processing and rendering
+- Fully multi-threaded
+- Rolling shutter correction
+- Supports already stabilized GoPro videos (captured with Hypersmooth enabled) (Hero 8 and up)
+- Supports and renders 10-bit videos (and higher, up to 16-bit 4:4:4, direct YUV rendering with no data loss - no conversion to RGB)
+- Visual chart with gyro data (can display gyro, accel, magnetometer and quaternions)
+- Visual display of smoothed quaternions
+- Real time offset adjustments
+- Adaptive zoom (dynamic cropping)
+- Based on [telemetry-parser](https://github.com/AdrianEddy/telemetry-parser) - supports all gyro sources out of the box
+- Gyro low pass filter, arbitrary rotation (pitch, roll, yaw angles) and orientation
+- Multiple gyro integration methods
+- Cross-platform - currently works on Windows/Linux/Mac, with Android and iOS apps coming
+- Multiple UI languages
+- Supports variable frame rate videos, all calculations are done on timestamps
+- x264, x265, ProRes and PNG outputs, with x264 and x265 fully GPU accelerated
+- Automatic lens calibration process
+- Automatic updates of lens profile database
+- Built-in lens profiles for GoPro HERO 6, 8, 9 and 10 in all shooting modes
+
+# Supported gyro sources
+- [x] GoPro (HERO 5 and later)
+- [x] Sony (a1, a6600, a7c, a7r IV, a7 IV, a7s III, a9 II, FX3, FX6, RX0 II, RX100 VII, ZV1, ZV-E10)
+- [x] Insta360 (OneR, SMO 4k, GO2)
+- [x] Betaflight blackbox (CSV and binary)
+- [x] Mobile apps: `Sensor Logger`, `G-Field Recorder`, `Gyro`
+- [x] Runcam CSV (Runcam 5 Orange, iFlight GOCam GR)
+- [x] WitMotion (WT901SDCL binary and *.txt)

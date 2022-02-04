@@ -1,8 +1,8 @@
 main:
   - title: "Download"
-    url: /download/
+    url: https://github.com/gyroflow/gyroflow/releases
   - title: "Docs"
-    url: http://docs.gyroflow.xyz/
+    url: https://docs.gyroflow.xyz/
   - title: Add lens profile
     url: /lens/
   - title: "Gallery"
