@@ -42,15 +42,21 @@ feature_row:
 {% include feature_row %}
 # Features ([See the repository for more information](https://github.com/gyroflow/gyroflow))
 
-<video loop autoplay muted style="width:100%;">
+<div style="width: 100%; height: auto; margin: 0 auto;"> 
+    <video loop autoplay muted style="width:47%;">
   <source src="/assets/videos/comparison1.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+  </video>
+  <video loop autoplay muted style="width:47%;float:right;">
+    <source src="/assets/videos/comparison2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+    <div style="clear:both;"></div> 
+</div>
 
-<video loop autoplay muted style="width:100%;">
-  <source src="/assets/videos/comparison2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+
 
 - Real time preview, params adjustments and all calculations
 - GPU processing and rendering
