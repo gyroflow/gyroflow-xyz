@@ -3,6 +3,9 @@ layout: single
 title: Gallery
 ---
 
+## Nurk FPV: Will the new GyroFlow Change the Filming Game?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mf3h0jEJehA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## v1.0.0 trailer
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QR-SINyvNyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
