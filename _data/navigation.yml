@@ -3,38 +3,11 @@ main:
     url: https://github.com/gyroflow/gyroflow/releases
   - title: "Docs"
     url: https://docs.gyroflow.xyz/
-  - title: Add lens profile
-    url: /lens/
+  - title: Discord
+    url: https://discord.gg/BBJ2UVAr2D
   - title: "Gallery"
     url: /gallery/
-  - title: "FAQ"
-    url: /FAQ/
   - title: "Contact"
     url: /contact/
   - title: "Donate"
     url: /donate/
-
-
-sidebar-sample:
-  - title: "Getting started"
-    children:
-      - title: "Windows"
-        url: /guide
-      - title: "Linux"
-        url: /guide
-      - title: "MacOS"
-        url: /guide
-      - title: "Python"
-        url: /guide
-  - title: "Blacbox logging"
-    children:
-      - title: "Child Page B1"
-        url: /guide
-  - title: "Camera calibration"
-    children:
-      - title: "Child Page C1"
-        url: /guide
-  - title: "Video stabilization"
-    children:
-      - title: "Child Page D1"
-        url: /guide

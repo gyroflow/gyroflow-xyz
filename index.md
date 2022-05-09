@@ -1,5 +1,5 @@
 ---
-title: "Gyroflow v1.0.0-rc has appeared!"
+title: "Gyroflow v1.0 is out!"
 layout: splash
 date: 2016-03-23T11:48:41-04:00
 header:
