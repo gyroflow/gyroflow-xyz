@@ -8,7 +8,7 @@ The Gyroflow project was initially a [Python program](https://github.com/ElvinC/
 [![Support Elvin via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](http://paypal.me/chenelvin)
 <a href="https://patreon.com/elvinchen" class="btn btn--info btn--small">Support Elvin via Patreon</a>
 
-Version 1.0 and onwards was made possible by <a href="https://github.com/adrianEddy">AdrianEddy</a>, the main developer of the current high-performance and cross-platform codebase written in Rust. AdrianEddy is currently raising funds for native BRAW video support:
+Version 1.0 and onwards was made possible by <a href="https://github.com/adrianEddy">AdrianEddy</a>, the main developer and maintainer of the current high-performance and cross-platform codebase written in Rust. AdrianEddy is currently raising funds for native BRAW video support:
 
 <a href="https://donate.stripe.com/5kAaGv6ky5mU1s44gg" class="btn btn--info btn--small">Stripe</a>
 <a href="https://buymeacoffee.com/adrianeddy" class="btn btn--info btn--small">buymeacoffee</a>

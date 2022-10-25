@@ -1,5 +1,5 @@
 ---
-title: "Gyroflow v1.2 is out!"
+title: "Gyroflow v1.3 is out!"
 layout: splash
 date: 2016-03-23T11:48:41-04:00
 header:
@@ -14,7 +14,7 @@ header:
     - label: "Docs"
       url: "https://docs.gyroflow.xyz/"
       class: "btn--primary"
-excerpt: "Support for DJI Avata, BRAW, keyframing, advanced render queue and much more!"
+excerpt: "Support for Hero 11, DJI Avata, BRAW, keyframing and much more!"
 intro: 
   - excerpt: "Advanced open-source gyro-assisted video stabilization for cinematography, drone videography, and much more! Bring your cinematic footage to the next level."
 feature_row:
